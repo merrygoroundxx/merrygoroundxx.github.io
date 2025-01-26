@@ -4,17 +4,17 @@
   
   
   <entry>
-    <title>ssh，连接</title>
+    <title>SSH，连接</title>
     <link href="/2025/01/26/ssh%EF%BC%8C%E8%BF%9E%E6%8E%A5/"/>
     <url>/2025/01/26/ssh%EF%BC%8C%E8%BF%9E%E6%8E%A5/</url>
     
-    <content type="html"><![CDATA[<h1 id="ssh连接命令"><a href="#ssh连接命令" class="headerlink" title="ssh连接命令"></a>ssh连接命令</h1><h1 id="断开ssh连接"><a href="#断开ssh连接" class="headerlink" title="断开ssh连接"></a>断开ssh连接</h1><p>参考博客：<a href="https://blog.csdn.net/zhichaosong/article/details/89193767" title="在终端连接ssh的断开关闭退出的方法">在终端连接ssh的断开关闭退出的方法</a></p><table><thead><tr><th>序号</th><th align="center">方法</th><th align="center">特点</th></tr></thead><tbody><tr><td>方法1</td><td align="center">直接关闭终端</td><td align="center">简单粗暴</td></tr><tr><td>方法2</td><td align="center">输入<code>logout</code></td><td align="center">比较正式的退出方式</td></tr><tr><td>方法3</td><td align="center">输入<code>exit</code></td><td align="center">等同于方法2</td></tr><tr><td>方法4</td><td align="center">Ctrl + D</td><td align="center">等同于方法2，方便快捷</td></tr></tbody></table>]]></content>
+    <content type="html"><![CDATA[<h1 id="SSH连接命令"><a href="#SSH连接命令" class="headerlink" title="SSH连接命令"></a>SSH连接命令</h1><p><code>ssh [-l login_name] [-p port_number] [-i identity_file] remote_host</code><br>使用 SSH 连接远程主机的命令<code>ssh user@192.168.1.100</code></p><h1 id="断开SSH连接"><a href="#断开SSH连接" class="headerlink" title="断开SSH连接"></a>断开SSH连接</h1><p>参考博客：<a href="https://blog.csdn.net/zhichaosong/article/details/89193767" title="在终端连接ssh的断开关闭退出的方法">在终端连接ssh的断开关闭退出的方法</a></p><table><thead><tr><th>序号</th><th align="center">方法</th><th align="center">特点</th></tr></thead><tbody><tr><td>方法1</td><td align="center">直接关闭终端</td><td align="center">简单粗暴</td></tr><tr><td>方法2</td><td align="center">输入<code>logout</code></td><td align="center">比较正式的退出方式</td></tr><tr><td>方法3</td><td align="center">输入<code>exit</code></td><td align="center">等同于方法2</td></tr><tr><td>方法4</td><td align="center">Ctrl + D</td><td align="center">等同于方法2，方便快捷</td></tr></tbody></table>]]></content>
     
     
     
     <tags>
       
-      <tag>ssh</tag>
+      <tag>SSH</tag>
       
     </tags>
     
